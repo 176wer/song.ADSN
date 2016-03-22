@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inherit-compiler-output="true" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/out/test/ADSN"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="bsh.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/bsh.jar!/"/>
+	</lib>
+	<lib name="dom4j-1.6.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/dom4j-1.6.1.jar!/"/>
+	</lib>
+	<lib name="jcommon-1.0.23.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/jcommon-1.0.23.jar!/"/>
+	</lib>
+	<lib name="jfreechart-1.0.19.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/jfreechart-1.0.19.jar!/"/>
+	</lib>
+	<lib name="mysql-connector-java-5.1.38-bin.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/mysql-connector-java-5.1.38-bin.jar!/"/>
+	</lib>
+	<lib name="rrd4j-2.0.6.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/rrd4j-2.0.6.jar!/"/>
+	</lib>
+	<lib name="jaxen-1.1-beta-7.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/jaxen-1.1-beta-7.jar!/"/>
+	</lib>
+</component>

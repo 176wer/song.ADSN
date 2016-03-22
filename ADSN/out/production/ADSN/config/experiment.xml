@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<experiment>
+    <id>1</id>
+	<previous>
+	<previous1>0-图书馆温度测试-2015</previous1>
+	<previous1>1-图书馆温度测试-2015</previous1>
+	<previous2>2-图书馆温度测试-2015</previous2>
+		<previous3>3-图书馆温度测试-2015</previous3>
+	</previous>
+	</experiment>
