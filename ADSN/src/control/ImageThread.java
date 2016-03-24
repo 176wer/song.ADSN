@@ -5,6 +5,7 @@ package control;
  */
 
 import core.DrawCurve;
+import core.DrawCurve1;
 import core.Surface;
 import org.jfree.chart.JFreeChart;
 
@@ -34,10 +35,10 @@ public class ImageThread extends Thread
     private Surface topoPanel;
     //存放文件夹路径
     private String  filePath=ImageThread.class.getResource("/").getFile();
-    public ImageThread(int sleepTime, DrawCurve wenpane, Surface topoPanel){
+    public ImageThread(int sleepTime, DrawCurve1 wenpane, Surface topoPanel){
         this.sleepTime=sleepTime;
 
-        chart=wenpane.getJfreechart();
+        chart=wenpane.getChart();
         this.topoPanel=topoPanel;
     }
     public void run(){

@@ -4,7 +4,7 @@ import control.MyLogger;
 import control.NodeLEList;
 import control.NodeLife;
 import control.SerialConnectionException;
-import core.DrawCurve;
+import core.DrawCurve1;
 import core.ImitateDraw;
 import core.ImitateSend;
 import core.Surface;
@@ -26,7 +26,7 @@ public class MainFrame extends Thread {
 
     private JFrame frame;
     private SerialParameters parameters;
-    private DrawCurve drawCurve;
+    private DrawCurve1 drawCurve;
     private Surface NodeTopo;
     private SerialConnection SerCon;
     private JTabbedPane tabbedPane;
@@ -56,6 +56,7 @@ public class MainFrame extends Thread {
 	private LogDialog logDialog;
 	private  ImitateSend imi;
 	private ImitateDraw imidraw;
+	private JMenuItem menuItem_12;
 
     /**
      * Launch the application.
@@ -231,7 +232,7 @@ public class MainFrame extends Thread {
         tabbedPane.addTab("节点拓扑", null, scrolTopo, null);
         treePanel.setTable(tabbedPane);
         // 画参数曲线面板
-         drawCurve= new DrawCurve();
+         drawCurve= new DrawCurve1();
         tabbedPane.addTab("参数曲线", null, drawCurve, null);
         JTabbedPane tabbedPane_1 = new JTabbedPane(JTabbedPane.TOP);
         tabbedPane_1.setBounds(193, 565, 1199, 207);
@@ -355,6 +356,9 @@ public class MainFrame extends Thread {
         
         JMenu menu_3=new JMenu("工具");
         menuBar.add(menu_3);
+        
+        menuItem_12 = new JMenuItem("数据库后台");
+        menu_3.add(menuItem_12);
         JMenuItem item3=new JMenuItem("数据库监控");
         menu_3.add(item3);
         item3.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_L,InputEvent.CTRL_MASK));
@@ -366,6 +370,9 @@ public class MainFrame extends Thread {
             }
         	
         });
+        
+        JSeparator separator_3 = new JSeparator();
+        menu_3.add(separator_3);
         
         JMenuItem item_4=new JMenuItem("网络分析");
         menu_3.add(item_4);
@@ -381,6 +388,15 @@ public class MainFrame extends Thread {
         });
         menuItem_1.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_Q, InputEvent.CTRL_MASK));
         menu_3.add(menuItem_1);
+        
+        JSeparator separator_2 = new JSeparator();
+        menu_3.add(separator_2);
+        
+        JMenuItem menuItem_10 = new JMenuItem("\u8282\u70B9\u8D28\u91CF\u8BC4\u4EF7");
+        menu_3.add(menuItem_10);
+        
+        JMenuItem menuItem_11 = new JMenuItem("\u8282\u70B9\u80FD\u91CF\u6D88\u8017\u72B6\u6001");
+        menu_3.add(menuItem_11);
         
         JMenu menu_4 = new JMenu("\u8C03\u8BD5");
         menuBar.add(menu_4);
@@ -420,7 +436,7 @@ public class MainFrame extends Thread {
         JSeparator separator_1 = new JSeparator();
         menu_4.add(separator_1);
         
-        JMenuItem menuItem_8 = new JMenuItem("\u65B0\u5EFA\u76D1\u89C6\u70B9");
+        JMenuItem menuItem_8 = new JMenuItem("\u65B0\u5EFA\u8282\u70B9\u76D1\u89C6\u70B9");
         menu_4.add(menuItem_8);
         
         JMenu mnSearch = new JMenu("Search");
@@ -466,7 +482,7 @@ public class MainFrame extends Thread {
     /*
      * 返回参数reference for 参数面板
      */
-    public DrawCurve getDrawCurve() {
+    public DrawCurve1 getDrawCurve() {
         return  drawCurve;
     }
 

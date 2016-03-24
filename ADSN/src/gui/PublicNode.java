@@ -1,11 +1,12 @@
 package gui;
 
 import core.DrawCurve;
+import core.DrawCurve1;
 import core.ZEllipse;
 
 public class PublicNode {
     private static ZEllipse nodeBean;
-    private static DrawCurve wenpane;
+    private static DrawCurve1 wenpane;
     private  static  String addr;
 
     public static String getAddr() {
@@ -16,11 +17,11 @@ public class PublicNode {
         PublicNode.addr = addr;
     }
 
-    public static DrawCurve getWenpane() {
+    public static DrawCurve1 getWenpane() {
         return wenpane;
     }
 
-    public static void setWenpane(DrawCurve wenpane) {
+    public static void setWenpane(DrawCurve1 wenpane) {
         PublicNode.wenpane = wenpane;
     }
 

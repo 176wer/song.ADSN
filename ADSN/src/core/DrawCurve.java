@@ -43,14 +43,16 @@ public class DrawCurve extends JPanel {
 
     public DrawCurve() {
         setLayout(new BorderLayout());
-        series1 = new TimeSeries("Temperature");
-        series2 = new TimeSeries("Humdity");
-        series3 = new TimeSeries("Light");
-        series4 = new TimeSeries("vibration");
+        series1 = new TimeSeries("Temperature",Millisecond.class);
+        series2 = new TimeSeries("Humdity",Millisecond.class);
+        series3 = new TimeSeries("Light",Millisecond.class);
+        series4 = new TimeSeries("vibration",Millisecond.class);
         TimeSeriesCollection timeseriescollection1 = new TimeSeriesCollection(series1);
         TimeSeriesCollection timeseriescollection2 = new TimeSeriesCollection(series2);
         TimeSeriesCollection timeseriescollection3 = new TimeSeriesCollection(series3);
         TimeSeriesCollection timeSeriesCollection4 = new TimeSeriesCollection(series4);
+
+
         jfreechart = ChartFactory.createTimeSeriesChart("实时参数变化", "Time", "Temperature", timeseriescollection1, true, true, false);
 
         XYPlot xyplot = (XYPlot) jfreechart.getPlot();

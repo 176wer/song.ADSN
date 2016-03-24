@@ -1,5 +1,6 @@
 package gui;
 import core.DrawCurve;
+import core.DrawCurve1;
 import core.Surface;
 import core.ZEllipse;
 
@@ -232,7 +233,7 @@ public class DynamicTree extends JPanel implements TreeSelectionListener {
 		    	  paramPane.getLabel_3().setText(NodeObject.getVibration());
 		    	  paramPane.getLabel_4().setText(String.valueOf(NodeObject.getRssi()));
 		    	  SelecName=NodeObject.getAddr();
-		    	  DrawCurve wenpane=new DrawCurve();
+		    	  DrawCurve1 wenpane=new DrawCurve1();
 			        PublicNode.setWenpane(wenpane);
 			        PublicNode.setAddr(SelecName);
 			        if(i>=2){

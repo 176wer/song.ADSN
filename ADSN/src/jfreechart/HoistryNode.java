@@ -71,7 +71,7 @@ public class HoistryNode extends JPanel  implements ChangeListener{
         conn = pool.getConnection();
         Lib lib = new Lib();
         SumCounts = lib.getNodeHistroyCount(query);
-
+           
 		slider = new JSlider(JSlider.VERTICAL, 0,SumCounts/viewC, 0);
 		split.setLeftComponent(slider);
 		slider.addChangeListener(this);

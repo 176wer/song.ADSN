@@ -1,6 +1,7 @@
 package gui;
 import control.ImageThread;
 import core.DrawCurve;
+import core.DrawCurve1;
 import core.Surface;
 
 import javax.swing.*;
@@ -12,12 +13,12 @@ import java.awt.event.KeyEvent;
 public class CameraDialog extends JDialog {
     private final JPanel contentPanel = new JPanel();
     private JTextField textField;
-    private DrawCurve drawCurve;
+    private DrawCurve1 drawCurve;
     private Surface topo;
     /**
      * Create the dialog.
      */
-    public CameraDialog(final DrawCurve drawCurve, final Surface topo) {
+    public CameraDialog(final DrawCurve1 drawCurve1, final Surface topo) {
         this.drawCurve=drawCurve;
         this.topo=topo;
         setBounds(100, 100, 450, 300);

@@ -3,6 +3,7 @@ package gui;
 import bean.NodeMark;
 import control.*;
 import core.DrawCurve;
+import core.DrawCurve1;
 import core.ZEllipse;
 import lib.Lib;
 
@@ -24,7 +25,7 @@ public class SerialConnection extends Thread implements SerialPortEventListener,
     private SerialParameters parameters;
     private OutputStream os;
     private InputStream is;
-    private DrawCurve drawCurve;
+    private DrawCurve1 drawCurve;
     private DynamicTree tree;
     private CommPortIdentifier portId;
     private SerialPort sPort;

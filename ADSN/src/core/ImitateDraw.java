@@ -3,17 +3,17 @@ package core;
 import java.util.Random;
 
 public class ImitateDraw extends Thread {
-	private DrawCurve draw;
+	private DrawCurve1 draw;
 	private boolean flag=true;
 	
-	public ImitateDraw(DrawCurve draw){
+	public ImitateDraw(DrawCurve1 draw){
 		this.draw=draw;
 	}
 	public void run(){
 		Random r=new Random();
 		while(flag){
 			try {
-				Thread.sleep(5);
+				Thread.sleep(50);
 				int d1=r.nextInt(10);
 				int d2=r.nextInt(8);
 				int d3=r.nextInt(5);
