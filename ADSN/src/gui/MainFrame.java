@@ -56,7 +56,6 @@ public class MainFrame extends Thread {
 	private LogDialog logDialog;
 	private  ImitateSend imi;
 	private ImitateDraw imidraw;
-	private JMenuItem menuItem_12;
 
     /**
      * Launch the application.
@@ -356,8 +355,9 @@ public class MainFrame extends Thread {
         
         JMenu menu_3=new JMenu("工具");
         menuBar.add(menu_3);
-        
-        menuItem_12 = new JMenuItem("数据库后台");
+
+        JMenuItem menuItem_12 = new JMenuItem("数据库后台");
+        menuItem_12.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_D, InputEvent.CTRL_MASK));
         menu_3.add(menuItem_12);
         JMenuItem item3=new JMenuItem("数据库监控");
         menu_3.add(item3);
@@ -374,10 +374,6 @@ public class MainFrame extends Thread {
         JSeparator separator_3 = new JSeparator();
         menu_3.add(separator_3);
         
-        JMenuItem item_4=new JMenuItem("网络分析");
-        menu_3.add(item_4);
-        item_4.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_N,InputEvent.CTRL_MASK)); 
-        
         menuItem_1 = new JMenuItem("参数监控");
         menuItem_1.addActionListener(new ActionListener() {
         	public void actionPerformed(ActionEvent arg0) {
@@ -391,12 +387,6 @@ public class MainFrame extends Thread {
         
         JSeparator separator_2 = new JSeparator();
         menu_3.add(separator_2);
-        
-        JMenuItem menuItem_10 = new JMenuItem("\u8282\u70B9\u8D28\u91CF\u8BC4\u4EF7");
-        menu_3.add(menuItem_10);
-        
-        JMenuItem menuItem_11 = new JMenuItem("\u8282\u70B9\u80FD\u91CF\u6D88\u8017\u72B6\u6001");
-        menu_3.add(menuItem_11);
         
         JMenu menu_4 = new JMenu("\u8C03\u8BD5");
         menuBar.add(menu_4);
@@ -438,6 +428,45 @@ public class MainFrame extends Thread {
         
         JMenuItem menuItem_8 = new JMenuItem("\u65B0\u5EFA\u8282\u70B9\u76D1\u89C6\u70B9");
         menu_4.add(menuItem_8);
+
+        JMenu menu_5 = new JMenu("\u5206\u6790");
+        menuBar.add(menu_5);
+
+        JMenuItem menuItem_13 = new JMenuItem("\u7F51\u7EDC\u5206\u6790");
+        menuItem_13.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_W, InputEvent.CTRL_MASK));
+        menu_5.add(menuItem_13);
+
+        JMenuItem menuItem_10 = new JMenuItem("历史数据");
+        menuItem_10.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent arg0) {
+                DrawHoistry dialog = new DrawHoistry();
+                dialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
+                dialog.setVisible(true);
+            }
+        });
+        menuItem_10.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_L, InputEvent.CTRL_MASK));
+        menu_5.add(menuItem_10);
+
+        JSeparator separator_5 = new JSeparator();
+        menu_5.add(separator_5);
+
+        JMenuItem menuItem_14 = new JMenuItem("\u8282\u70B9\u8D28\u91CF\u8BC4\u4EF7");
+        menuItem_14.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_Z, InputEvent.CTRL_MASK));
+        menu_5.add(menuItem_14);
+
+        JMenuItem menuItem_15 = new JMenuItem("节点能量消耗");
+        menuItem_15.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent arg0) {
+                HoistryEnergy dialog = new HoistryEnergy();
+                dialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
+                dialog.setVisible(true);
+            }
+        });
+        menuItem_15.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_E, InputEvent.CTRL_MASK));
+        menu_5.add(menuItem_15);
+
+        JSeparator separator_4 = new JSeparator();
+        menu_5.add(separator_4);
         
         JMenu mnSearch = new JMenu("Search");
         menuBar.add(mnSearch);

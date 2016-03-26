@@ -13,7 +13,7 @@ public class ImitateDraw extends Thread {
 		Random r=new Random();
 		while(flag){
 			try {
-				Thread.sleep(50);
+				Thread.sleep(500);
 				int d1=r.nextInt(10);
 				int d2=r.nextInt(8);
 				int d3=r.nextInt(5);

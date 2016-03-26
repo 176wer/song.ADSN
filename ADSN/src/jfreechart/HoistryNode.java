@@ -29,63 +29,64 @@ import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 import java.awt.*;
 import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
 
 /**
- * Function: 绘出历史节点数据
- * Date:     2016年3月17日 上午10:09:34 <br/>
- * @since    JDK 1.6
- * @see 	 
+ * Function: 绘出历史节点数据 Date: 2016年3月17日 上午10:09:34 <br/>
+ *
+ * @since JDK 1.6
+ * @see
  */
-public class HoistryNode extends JPanel  implements ChangeListener{
+public class HoistryNode extends JPanel implements ChangeListener {
 	/**
 	 * serialVersionUID:TODO(用一句话描述这个变量表示什么).
 	 */
 	private static final long serialVersionUID = 1L;
-	private int viewC=200;//规定滚动显示数据个数
-	private int SumCounts=0;//该节点下一共有多少数据
-
+	private int viewC = 200;// 规定滚动显示数据个数
+	private int SumCounts = 0;// 该节点下一共有多少数据
+	private ArrayList<String> funNode = new ArrayList<String>();// 存放功能区的节点
 
 	private JSlider slider;
 	private JFreeChart freeChart;
-	private XYSeries xySeries1 ;
-	private XYSeries xySeries2 ;
-	private XYSeries xySeries3 ;
-	private XYSeries xySeries4 ;
+	private XYSeries xySeries1;
+	private XYSeries xySeries2;
+	private XYSeries xySeries3;
+	private XYSeries xySeries4;
 	private Connection conn;
 	private String query;
+	private String startTime;// 查询节点数据的起始时间
+	private String endTime;// 查询节点的结束时间
+	private String pickFunc;
 
-
-
-	public HoistryNode(String query){
+	public HoistryNode() {
 		super(new GridLayout());
 
-		JSplitPane split=new JSplitPane();
-		add(split ,BorderLayout.CENTER);
-		JPanel rpanel =new  JPanel();
-		rpanel.setLayout(new GridLayout(2,2));
+		IConnectionPool pool = ConnectionPoolManager.getInstance().getPool("mysql");
+		conn = pool.getConnection();
+
+		JSplitPane split = new JSplitPane();
+		add(split, BorderLayout.CENTER);
+		JPanel rpanel = new JPanel();
+		rpanel.setLayout(new GridLayout(2, 2));
 		split.setOrientation(JSplitPane.HORIZONTAL_SPLIT);
 		split.setRightComponent(rpanel);
 
-
-        IConnectionPool pool = ConnectionPoolManager.getInstance().getPool("mysql");
-        conn = pool.getConnection();
-        Lib lib = new Lib();
-        SumCounts = lib.getNodeHistroyCount(query);
-           
-		slider = new JSlider(JSlider.VERTICAL, 0,SumCounts/viewC, 0);
+		slider = new JSlider(JSlider.VERTICAL, 0, SumCounts / viewC, 0);
 		split.setLeftComponent(slider);
 		slider.addChangeListener(this);
 
-
-		//创建主题样式
-		StandardChartTheme standardChartTheme=new StandardChartTheme("CN");
-		//设置标题字体
-		standardChartTheme.setExtraLargeFont(new Font("隶书",Font.BOLD,20));
-		//设置图例的字体
-		standardChartTheme.setRegularFont(new Font("宋书",Font.PLAIN,15));
-		//设置轴向的字体
-		standardChartTheme.setLargeFont(new Font("宋书",Font.PLAIN,15));
-		//应用主题样式
+		// 创建主题样式
+		StandardChartTheme standardChartTheme = new StandardChartTheme("CN");
+		// 设置标题字体
+		standardChartTheme.setExtraLargeFont(new Font("隶书", Font.BOLD, 20));
+		// 设置图例的字体
+		standardChartTheme.setRegularFont(new Font("宋书", Font.PLAIN, 15));
+		// 设置轴向的字体
+		standardChartTheme.setLargeFont(new Font("宋书", Font.PLAIN, 15));
+		// 应用主题样式
 		ChartFactory.setChartTheme(standardChartTheme);
 
 		xySeries1 = new XYSeries("温度");
@@ -122,44 +123,61 @@ public class HoistryNode extends JPanel  implements ChangeListener{
 		cp4.setMouseWheelEnabled(true);
 		rpanel.add(cp4);
 
-
-
-
 	}
 
-
-
 	private JFreeChart createChart(String title, XYDataset xyDataset, String x, String y) {
-		JFreeChart jFreeChart = ChartFactory.createXYLineChart(title, x, y, xyDataset, PlotOrientation.VERTICAL, true, true, false);
+		JFreeChart jFreeChart = ChartFactory.createXYLineChart(title, x, y, xyDataset, PlotOrientation.VERTICAL, true,
+				true, false);
 		XYPlot xyPlot = (XYPlot) jFreeChart.getPlot();
 		xyPlot.setDomainPannable(true);
 		xyPlot.setRangePannable(true);
 		XYLineAndShapeRenderer xyLineAndShapeRenderer = (XYLineAndShapeRenderer) xyPlot.getRenderer();
 		xyLineAndShapeRenderer.setBaseLinesVisible(true);
 		xyLineAndShapeRenderer.setBaseShapesFilled(true);
-		NumberAxis numberAxis=(NumberAxis)xyPlot.getRangeAxis();
+		NumberAxis numberAxis = (NumberAxis) xyPlot.getRangeAxis();
 		numberAxis.setStandardTickUnits(NumberAxis.createIntegerTickUnits());
 		return jFreeChart;
 	}
 
-
 	public void stateChanged(ChangeEvent e) {
 
+		Lib lib = new Lib();
+		SumCounts = lib.getNodeHistroyCount(query);
 		JSlider source = (JSlider) e.getSource();
 		if (!source.getValueIsAdjusting()) {
-            int a = source.getValue();
-            xySeries1.clear();
-            xySeries2.clear();
-            xySeries3.clear();
-            xySeries4.clear();
-
-
-
-
+			int a = source.getValue();
+			xySeries1.clear();
+			xySeries2.clear();
+			xySeries3.clear();
+			xySeries4.clear();
 
 		}
 
 	}
 
-}
+	public void setQueryValue(String startTime, String endTime, String pickFunc) {
+		this.startTime = startTime;
+		this.endTime = endTime;
+		this.pickFunc = pickFunc;
+	}
 
+	public void startDraw() {
+		Statement stm = null;
+		ResultSet rs = null;
+		String sql = "select sensor_id from funcation where node_funcation='" + pickFunc + "'";//根据功能区列出所有节点
+		String sql1 = "select * from";
+		try {
+			rs = stm.executeQuery(sql);
+			while (rs.next()) {
+				funNode.add(rs.getString(1));
+		}
+			rs.close();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+	}
+
+}

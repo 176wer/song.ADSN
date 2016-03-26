@@ -9,22 +9,20 @@ import javafx.event.EventHandler;
 import javafx.geometry.HPos;
 import javafx.scene.Group;
 import javafx.scene.Scene;
-import javafx.scene.control.*;
+import javafx.scene.control.Button;
+import javafx.scene.control.ComboBox;
+import javafx.scene.control.DatePicker;
+import javafx.scene.control.Label;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
 import javafx.util.StringConverter;
+import jfreechart.HoistryNode;
 
-import java.awt.BorderLayout;
-import java.awt.FlowLayout;
+import javax.swing.*;
+import java.awt.*;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-
-import javax.swing.JButton;
-import javax.swing.JDialog;
-import javax.swing.JPanel;
-import javax.swing.border.EmptyBorder;
-import javax.swing.JSplitPane;
 
 public class XJdialog extends JDialog {
 	private DatePicker startime;
@@ -67,6 +65,7 @@ public class XJdialog extends JDialog {
             }
         });
         splitPane.setLeftComponent(fxPanel);
+		splitPane.setRightComponent(new HoistryNode());
 	}
 
 
@@ -133,10 +132,10 @@ public class XJdialog extends JDialog {
             @Override
             public void handle(ActionEvent event) {
 
-                String item = (String) ComboBox.getSelectionModel().getSelectedItem();
-                try{
-                    String st = startime.getValue().toString();
-                    String et = endtime.getValue().toString();
+				String item = ComboBox.getSelectionModel().getSelectedItem();
+				try {
+					String st = startime.getValue().toString();
+					String et = endtime.getValue().toString();
                 }catch (Exception e){
 
                 }
