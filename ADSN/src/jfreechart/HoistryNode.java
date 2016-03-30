@@ -188,7 +188,7 @@ public class HoistryNode extends JPanel implements ChangeListener {
 				funNode.add(rs1.getString(1));
 				System.out.println(rs1.getString(1));
 			}
-
+		
 			String addr = funNode.get(0);
 			System.out.println(addr);
 			String sql2 = "select  temperature , humdity , vibration ,light from  ntime where addr='"+addr+"' and ndate>'"+startTime+"' and ndate<'"+endTime+"'" ;
