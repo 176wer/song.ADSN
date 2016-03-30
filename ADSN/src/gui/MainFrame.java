@@ -56,6 +56,7 @@ public class MainFrame extends Thread {
 	private LogDialog logDialog;
 	private  ImitateSend imi;
 	private ImitateDraw imidraw;
+    private DrawHoistry dialog;
 
     /**
      * Launch the application.
@@ -114,7 +115,7 @@ public class MainFrame extends Thread {
         frame.setBounds(100, 100, 1408, 877);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.getContentPane().setLayout(null);
-
+        frame.setTitle("蓝豹实验室");
         JToolBar toolBar = new JToolBar();
         toolBar.setBounds(0, 0, 1304, 41);
         frame.getContentPane().add(toolBar);
@@ -436,12 +437,17 @@ public class MainFrame extends Thread {
         menuItem_13.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_W, InputEvent.CTRL_MASK));
         menu_5.add(menuItem_13);
 
+        SwingUtilities.invokeLater(new Runnable() {
+            @Override
+            public void run() {
+                dialog = new DrawHoistry();
+            }
+        });
         JMenuItem menuItem_10 = new JMenuItem("历史数据");
         menuItem_10.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent arg0) {
-                DrawHoistry dialog = new DrawHoistry();
-                dialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
-                dialog.setVisible(true);
+               dialog.setVisible(true);
+
             }
         });
         menuItem_10.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_L, InputEvent.CTRL_MASK));

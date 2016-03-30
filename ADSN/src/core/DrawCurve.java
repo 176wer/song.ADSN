@@ -22,6 +22,7 @@ import org.jfree.data.time.TimeSeriesCollection;
 import javax.swing.*;
 import java.awt.*;
 
+
 // Referenced classes of package demo:
 //			DemoPanel
 

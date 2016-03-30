@@ -9,6 +9,7 @@
 
 package jfreechart;
 
+import core.DrawData;
 import lib.Lib;
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
@@ -37,8 +38,8 @@ import java.util.ArrayList;
 /**
  * Function: 绘出历史节点数据 Date: 2016年3月17日 上午10:09:34 <br/>
  *
- * @since JDK 1.6
  * @see
+ * @since JDK 1.6
  */
 public class HoistryNode extends JPanel implements ChangeListener {
 	/**
@@ -60,6 +61,9 @@ public class HoistryNode extends JPanel implements ChangeListener {
 	private String startTime;// 查询节点数据的起始时间
 	private String endTime;// 查询节点的结束时间
 	private String pickFunc;
+	private DrawData draw;
+
+
 
 	public HoistryNode() {
 		super(new GridLayout());
@@ -70,9 +74,10 @@ public class HoistryNode extends JPanel implements ChangeListener {
 		JSplitPane split = new JSplitPane();
 		add(split, BorderLayout.CENTER);
 		JPanel rpanel = new JPanel();
-		rpanel.setLayout(new GridLayout(2, 2));
+		rpanel.setLayout(new GridLayout(4, 1));
 		split.setOrientation(JSplitPane.HORIZONTAL_SPLIT);
 		split.setRightComponent(rpanel);
+
 
 		slider = new JSlider(JSlider.VERTICAL, 0, SumCounts / viewC, 0);
 		split.setLeftComponent(slider);
@@ -90,12 +95,14 @@ public class HoistryNode extends JPanel implements ChangeListener {
 		ChartFactory.setChartTheme(standardChartTheme);
 
 		xySeries1 = new XYSeries("温度");
+
 		xySeries2 = new XYSeries("湿度");
 		xySeries3 = new XYSeries("振动");
 		xySeries4 = new XYSeries("光强");
 
 		XYSeriesCollection xyseriescollection1 = new XYSeriesCollection();
 		xyseriescollection1.addSeries(xySeries1);
+		xyseriescollection1.setAutoWidth(true);
 		XYSeriesCollection xyseriescollection2 = new XYSeriesCollection();
 		xyseriescollection2.addSeries(xySeries2);
 		XYSeriesCollection xyseriescollection3 = new XYSeriesCollection();
@@ -107,18 +114,20 @@ public class HoistryNode extends JPanel implements ChangeListener {
 		ChartPanel cp1 = new ChartPanel(freeChart1);
 		cp1.setMouseWheelEnabled(true);
 		rpanel.add(cp1);
+//		draw=new DrawData();
+//		rpanel.add(draw);
 
-		JFreeChart freeChart2 = createChart("湿度", xyseriescollection1, "time", "humdity");
+		JFreeChart freeChart2 = createChart("湿度", xyseriescollection2, "time", "humdity");
 		ChartPanel cp2 = new ChartPanel(freeChart2);
 		cp2.setMouseWheelEnabled(true);
 		rpanel.add(cp2);
 
-		JFreeChart freeChart3 = createChart("光照", xyseriescollection1, "time", "light");
+		JFreeChart freeChart3 = createChart("光照", xyseriescollection3, "time", "light");
 		ChartPanel cp3 = new ChartPanel(freeChart3);
 		cp3.setMouseWheelEnabled(true);
 		rpanel.add(cp3);
 
-		JFreeChart freeChart4 = createChart("振动", xyseriescollection1, "time", "vibration");
+		JFreeChart freeChart4 = createChart("振动", xyseriescollection4, "time", "vibration");
 		ChartPanel cp4 = new ChartPanel(freeChart4);
 		cp4.setMouseWheelEnabled(true);
 		rpanel.add(cp4);
@@ -159,25 +168,56 @@ public class HoistryNode extends JPanel implements ChangeListener {
 		this.startTime = startTime;
 		this.endTime = endTime;
 		this.pickFunc = pickFunc;
+		startDraw();
 	}
 
 	public void startDraw() {
-		Statement stm = null;
-		ResultSet rs = null;
+		IConnectionPool pool = ConnectionPoolManager.getInstance().getPool("mysql");
+		Connection conn = pool.getConnection();
+		Statement stm1 = null;
+		ResultSet rs1 = null;
+		Statement stm2 = null;
+		ResultSet rs2;
 		String sql = "select sensor_id from funcation where node_funcation='" + pickFunc + "'";//根据功能区列出所有节点
-		String sql1 = "select * from";
+
+
 		try {
-			rs = stm.executeQuery(sql);
-			while (rs.next()) {
-				funNode.add(rs.getString(1));
-		}
-			rs.close();
+			stm1 = conn.createStatement();
+			rs1 = stm1.executeQuery(sql);
+			while (rs1.next()) {
+				funNode.add(rs1.getString(1));
+				System.out.println(rs1.getString(1));
+			}
+
+			String addr = funNode.get(0);
+			System.out.println(addr);
+			String sql2 = "select  temperature , humdity , vibration ,light from  ntime where addr='"+addr+"' and ndate>'"+startTime+"' and ndate<'"+endTime+"'" ;
+			System.out.println(sql2);
+			stm2 = conn.createStatement();
+
+			rs2 = stm2.executeQuery(sql2);
+			int i=0;
+			while(rs2.next()){
+				double v1 = rs2.getInt(1);
+				double v2 = i;
+				xySeries1.add(v2,v1);
+
+				v1 = rs2.getInt(2);
+				xySeries2.add(v2, v1);
+				v1 = rs2.getInt(3);
+				xySeries3.add(v2, v1);
+				v1 = rs2.getInt(4);
+				xySeries4.add(v2, v1);
+				i=i+1;
+			}
+
+			rs1.close();
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
-		
+
+
 	}
 
 }
