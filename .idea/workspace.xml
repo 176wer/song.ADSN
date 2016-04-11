@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5e1192d5-9ea3-42d4-b645-a4f647b923c4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADSN.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/.idea/artifacts/ADSN_jar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/ADSN.eml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/ADSN.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/ADSN.userlibraries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/lib/bsh.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/lib/dom4j-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/lib/jaxen-1.1-beta-7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/lib/jcommon-1.0.23.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/lib/jfreechart-1.0.19.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/lib/mysql-connector-java-5.1.38-bin.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/lib/rrd4j-2.0.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/artifacts/ADSN_jar/ADSN.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/bean/ChartBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/bean/Experiment.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/bean/FormulaParser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/bean/NodeMark.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/bean/NodeTime.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/bean/ProcessList.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/bean/ProcessListItem.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/bean/Recorder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/bean/RecorderList.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/bean/ServerStatus.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/bean/ServerVariables.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/bsh.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/charts/ChartsPanel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/charts/InstanceChartsPanel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/charts/MysqlChart$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/charts/MysqlChart.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/config/NewFile.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/config/charts.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/config/experiment.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/config/property.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/config/servers.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/control/ArrayToString.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/control/ConfigFrame$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/control/ConfigFrame.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/control/ImageThread.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/control/MyLogger$LogFormatter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/control/MyLogger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/control/NodeLE.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/control/NodeLEList.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/control/NodeLife.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/control/NodeLog$LogFormatter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/control/NodeLog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/control/Param.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/control/PublicContent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/control/SerialConnectionException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/control/StringToHex.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/control/TimeServer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/control/XMLReader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/core/DataRecorder$DataCell.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/core/DataRecorder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/core/DrawCurve.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/core/DrawCurve1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/core/Edge.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/core/ImitateDraw.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/core/ImitateSend.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/core/MovingScalingEx$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/core/MovingScalingEx.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/core/MysqlServer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/core/ProcessListListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/core/SchemaListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/core/ServerManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/core/ServerStatusListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/core/ServerVariablesListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/core/Surface.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/core/ZEllipse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/dom4j-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/etl/Sort.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/etl/TransformData.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/AlertDialog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/ButtonTabComponent$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/ButtonTabComponent$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/ButtonTabComponent$TabButton.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/ButtonTabComponent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/CameraDialog$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/CameraDialog$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/CameraDialog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/ConfDialog$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/ConfDialog$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/ConfDialog$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/ConfDialog$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/ConfDialog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/DynamicTree$MyTreeModelListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/DynamicTree.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/EnergyLife.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/FreshDialog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/HistryTopo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/ItemLabelDemo1$LabelGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/ItemLabelDemo1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/LogDialog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/MainFrame$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/MainFrame$10.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/MainFrame$11.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/MainFrame$12.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/MainFrame$13.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/MainFrame$14.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/MainFrame$15.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/MainFrame$16.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/MainFrame$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/MainFrame$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/MainFrame$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/MainFrame$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/MainFrame$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/MainFrame$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/MainFrame$8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/MainFrame$9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/MainFrame.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/MainGUI.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/Monitor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/NodeHistroy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/ParameterPanel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/PortRequestedDialog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/PromptTemp$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/PromptTemp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/PublicNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/SerialConnection$KeyHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/SerialConnection.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/SerialParameters.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/TablePane.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/TablePanel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/Test.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/toolbar/QueryNode$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/toolbar/QueryNode$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/toolbar/QueryNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/toolbar/ViewExper$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/toolbar/ViewExper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/image/a.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/image/card.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/image/error.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/image/gear.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/image/icon.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/image/internet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/image/monitor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/image/node.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/image/refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/image/search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/image/serial.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/image/大屏幕.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/jaxen-1.1-beta-7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/jcommon-1.0.23.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/jfreechart-1.0.19.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/jfreechart/CrosshairDemo2$DemoPanel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/jfreechart/CrosshairDemo2$DemoTableModel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/jfreechart/CrosshairDemo2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/jfreechart/HoistryNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/jfreechart/LineChartDemo7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/lib/Lib.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/lib/ToboToLib.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/model/MyTableModel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/mysql-connector-java-5.1.38-bin.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/pool/ConnectionPool$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/pool/ConnectionPool.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/pool/ConnectionPoolManager$Singtonle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/pool/ConnectionPoolManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/pool/DBInitInfo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/pool/DBbean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/pool/IConnectionPool.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/processlist/ProcessListInstancePanel$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/processlist/ProcessListInstancePanel$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/processlist/ProcessListInstancePanel$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/processlist/ProcessListInstancePanel$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/processlist/ProcessListInstancePanel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/processlist/ProcessListPanel$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/processlist/ProcessListPanel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/processlist/ProcessListTableModel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/rrd4j-2.0.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/rssi/RssitoDistance.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/schema/SchemalPane.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/servervariables/ServerVariablesPanel$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/servervariables/ServerVariablesPanel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/servervariables/ServerVariablesTableModel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/bean/ChartBean.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/bean/Experiment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/bean/FormulaParser.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/bean/NodeMark.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/bean/NodeTime.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/bean/ProcessList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/bean/ProcessListItem.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/bean/Recorder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/bean/RecorderList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/bean/ServerStatus.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/bean/ServerVariables.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/charts/ChartsPanel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/charts/InstanceChartsPanel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/charts/MysqlChart.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/config/NewFile.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/config/charts.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/config/experiment.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/config/property.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/config/servers.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/control/ArrayToString.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/control/ConfigFrame.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/control/ImageThread.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/control/MyLogger.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/control/NodeLE.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/control/NodeLEList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/control/NodeLife.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/control/NodeLog.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/control/Param.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/control/PublicContent.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/control/SerialConnectionException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/control/StringToHex.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/control/TimeServer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/control/XMLReader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/core/DataRecorder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/core/DrawCurve.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/core/DrawCurve1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/core/DrawData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/core/Edge.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/core/ImitateDraw.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/core/ImitateSend.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/core/MovingScalingEx.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/core/MysqlServer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/core/ProcessListListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/core/SchemaListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/core/ServerManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/core/ServerStatusListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/core/ServerVariablesListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/core/Surface.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/core/ZEllipse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/etl/Sort.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/etl/TransformData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/AlertDialog.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/BasicButton.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/ButtonTabComponent.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/CameraDialog.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/ConfDialog.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/DrawHoistry.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/DynamicTree.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/EnergyLife.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/FreshDialog.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/HistryTopo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/HoistryEnergy.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/ItemLabelDemo1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/LogDialog.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/MainFrame.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/MainGUI.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/Monitor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/NodeHistroy.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/ParameterPanel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/PlaneTopology.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/PortRequestedDialog.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/PromptTemp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/PublicNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/SerialConnection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/SerialParameters.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/TablePane.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/TablePanel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/Test.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/toolbar/QueryNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/toolbar/ViewExper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/image/a.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/image/big.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/image/card.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/image/error.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/image/gear.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/image/icon.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/image/internet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/image/monitor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/image/node.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/image/refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/image/search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/image/serial.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/jfreechart/CrosshairDemo2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/jfreechart/HoistryNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/jfreechart/LineChartDemo7.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/lib/Lib.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/lib/ToboToLib.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/model/MyTableModel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/pool/ConnectionPool.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/pool/ConnectionPoolManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/pool/DBInitInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/pool/DBbean.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/pool/IConnectionPool.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/processlist/ProcessListInstancePanel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/processlist/ProcessListPanel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/processlist/ProcessListTableModel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/rssi/RssitoDistance.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/schema/SchemalPane.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/servervariables/ServerVariablesPanel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/servervariables/ServerVariablesTableModel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/test/HistroyData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/test/InserData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/test/XJdialog.java" afterPath="" />
+    </list>
+    <ignored path="ADSN.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/production/ADSN/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="ADSN" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="MainFrame.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/gui/MainFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-226" />
+    <option name="y" value="132" />
+    <option name="width" value="1918" />
+    <option name="height" value="960" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ADSN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ADSN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="song.ADSN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ADSN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="song.ADSN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ADSN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="song.ADSN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="Application.MainFrame">
+    <configuration default="false" name="MainFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="gui.MainFrame" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ADSN" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ADSN" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.MainFrame" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.MainFrame" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\zgs\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5e1192d5-9ea3-42d4-b645-a4f647b923c4" name="Default" comment="" />
+      <created>1460355661385</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1460355661385</updated>
+      <workItem from="1460355675956" duration="42000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="42000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-226" y="132" width="1918" height="960" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973711" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/gui/MainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
