@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+	Charts configuration file.
+	This file specifies the charts the program plots.
+	Define a <chart> element for each chart you need.
+	For each chart you specify an id, a name and the formula used to calculate the chart values.
+	Optionally you can specify the min value formula for the chart and the max value formula.
+	In the formula you can use server and status variables enclosing the variable name in square brackets:
+	for example you can use [Threads_connected] to represents in the formula the current number of used connections.
+	You can get relative values of a variable (ie: differential value with respect to last polling value) using ^[variable_name] syntax.
+-->
+
+<charts>
+
+	<chart>											<!-- A single chart definition -->
+		<id>1</id>									<!-- A progressive unique id for the chart -->
+		<name>Connection usage</name>				<!-- The name of the chart used in the program -->
+		<formula>[Threads_connected]</formula>		<!-- The formula used to calculate the values of the chart -->
+		<minFormula>0</minFormula>					<!-- Optional: the formula used to calculate the min value of the chart -->
+		<maxFormula>[max_connections]</maxFormula>	<!-- Optional: the formula used to calculate the max value of the chart -->
+	</chart>
+
+	<chart>
+		<id>2</id>
+		<name>Inserted rows</name>
+		<formula>^[Innodb_rows_inserted]</formula>
+	</chart>
+	
+	<chart>
+		<id>3</id>
+		<name>Updated rows</name>
+		<formula>^[Innodb_rows_updated]</formula>
+	</chart>
+	
+	<chart>
+		<id>4</id>
+		<name>Deleted rows</name>
+		<formula>^[Innodb_rows_deleted]</formula>
+	</chart>
+	
+	<chart>
+		<id>5</id>
+		<name>Read rows</name>
+		<formula>^[Innodb_rows_read]</formula>
+	</chart>
+	
+	<chart>
+		<id>6</id>
+		<name>Modified rows</name>
+		<formula>^[Innodb_rows_inserted]+^[Innodb_rows_updated]+^[Innodb_rows_deleted]</formula>
+	</chart>
+	
+</charts>

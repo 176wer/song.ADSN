@@ -1,0 +1,14 @@
+Installing Adit:
+1. Unzip or untar all files in the distribution 
+3. Make sure your JDBC drivers are in your Java classpath or add the jar files 
+    to the lib/ext directory of your JRE
+4. Change to the directory created in step 1
+5. Start adit by typing: java -jar adit.jar
+
+On Windows you can double click on adit.jar to start Adit
+
+Sample driver and JDBC urls are in the driver.ini and url.ini files included 
+with Adit. You can edit these to add your own connection information. 
+See your JDBC driver documentation for details on the proper format 
+for the url.
+

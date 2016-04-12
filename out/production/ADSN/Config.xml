@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cache-config>
+<!-- 这里写注释-->
+<role>
+<role-name>
+management
+</role-name>
+
+<weight>
+1
+</weight>
+</role>
+<members>
+<member-1>lb.zgs.cash1</member-1>
+<member-2>lb.zgs.cash2</member-2>
+.....
+<member-6>lb.zgs.cash6</member-6>
+
+</members>
+</cache-config>

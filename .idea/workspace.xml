@@ -2,310 +2,76 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e1192d5-9ea3-42d4-b645-a4f647b923c4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ADSN.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/.idea/artifacts/ADSN_jar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/ADSN.eml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/ADSN.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/ADSN.userlibraries" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/lib/bsh.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/lib/dom4j-1.6.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/lib/jaxen-1.1-beta-7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/lib/jcommon-1.0.23.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/lib/jfreechart-1.0.19.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/lib/mysql-connector-java-5.1.38-bin.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/lib/rrd4j-2.0.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/artifacts/ADSN_jar/ADSN.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/bean/ChartBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/bean/Experiment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/bean/FormulaParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/bean/NodeMark.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/bean/NodeTime.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/bean/ProcessList.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/bean/ProcessListItem.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/bean/Recorder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/bean/RecorderList.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/bean/ServerStatus.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/bean/ServerVariables.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/bsh.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/charts/ChartsPanel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/charts/InstanceChartsPanel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/charts/MysqlChart$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/charts/MysqlChart.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/config/NewFile.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/config/charts.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/config/experiment.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/config/property.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/config/servers.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/control/ArrayToString.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/control/ConfigFrame$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/control/ConfigFrame.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/control/ImageThread.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/control/MyLogger$LogFormatter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/control/MyLogger.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/control/NodeLE.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/control/NodeLEList.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/control/NodeLife.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/control/NodeLog$LogFormatter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/control/NodeLog.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/control/Param.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/control/PublicContent.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/control/SerialConnectionException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/control/StringToHex.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/control/TimeServer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/control/XMLReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/core/DataRecorder$DataCell.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/core/DataRecorder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/core/DrawCurve.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/core/DrawCurve1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/core/Edge.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/core/ImitateDraw.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/core/ImitateSend.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/core/MovingScalingEx$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/core/MovingScalingEx.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/core/MysqlServer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/core/ProcessListListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/core/SchemaListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/core/ServerManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/core/ServerStatusListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/core/ServerVariablesListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/core/Surface.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/core/ZEllipse.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/dom4j-1.6.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/etl/Sort.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/etl/TransformData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/AlertDialog.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/ButtonTabComponent$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/ButtonTabComponent$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/ButtonTabComponent$TabButton.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/ButtonTabComponent.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/CameraDialog$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/CameraDialog$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/CameraDialog.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/ConfDialog$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/ConfDialog$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/ConfDialog$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/ConfDialog$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/ConfDialog.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/DynamicTree$MyTreeModelListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/DynamicTree.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/EnergyLife.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/FreshDialog.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/HistryTopo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/ItemLabelDemo1$LabelGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/ItemLabelDemo1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/LogDialog.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/MainFrame$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/MainFrame$10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/MainFrame$11.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/MainFrame$12.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/MainFrame$13.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/MainFrame$14.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/MainFrame$15.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/MainFrame$16.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/MainFrame$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/MainFrame$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/MainFrame$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/MainFrame$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/MainFrame$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/MainFrame$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/MainFrame$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/MainFrame$9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/MainFrame.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/MainGUI.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/Monitor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/NodeHistroy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/ParameterPanel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/PortRequestedDialog.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/PromptTemp$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/PromptTemp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/PublicNode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/SerialConnection$KeyHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/SerialConnection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/SerialParameters.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/TablePane.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/TablePanel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/Test.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/toolbar/QueryNode$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/toolbar/QueryNode$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/toolbar/QueryNode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/toolbar/ViewExper$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/gui/toolbar/ViewExper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/image/a.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/image/card.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/image/error.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/image/gear.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/image/icon.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/image/internet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/image/monitor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/image/node.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/image/refresh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/image/search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/image/serial.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/image/大屏幕.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/jaxen-1.1-beta-7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/jcommon-1.0.23.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/jfreechart-1.0.19.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/jfreechart/CrosshairDemo2$DemoPanel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/jfreechart/CrosshairDemo2$DemoTableModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/jfreechart/CrosshairDemo2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/jfreechart/HoistryNode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/jfreechart/LineChartDemo7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/lib/Lib.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/lib/ToboToLib.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/model/MyTableModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/mysql-connector-java-5.1.38-bin.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/pool/ConnectionPool$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/pool/ConnectionPool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/pool/ConnectionPoolManager$Singtonle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/pool/ConnectionPoolManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/pool/DBInitInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/pool/DBbean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/pool/IConnectionPool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/processlist/ProcessListInstancePanel$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/processlist/ProcessListInstancePanel$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/processlist/ProcessListInstancePanel$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/processlist/ProcessListInstancePanel$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/processlist/ProcessListInstancePanel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/processlist/ProcessListPanel$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/processlist/ProcessListPanel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/processlist/ProcessListTableModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/rrd4j-2.0.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/rssi/RssitoDistance.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/schema/SchemalPane.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/servervariables/ServerVariablesPanel$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/servervariables/ServerVariablesPanel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/out/production/ADSN/servervariables/ServerVariablesTableModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/bean/ChartBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/bean/Experiment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/bean/FormulaParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/bean/NodeMark.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/bean/NodeTime.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/bean/ProcessList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/bean/ProcessListItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/bean/Recorder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/bean/RecorderList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/bean/ServerStatus.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/bean/ServerVariables.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/charts/ChartsPanel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/charts/InstanceChartsPanel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/charts/MysqlChart.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/config/NewFile.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/config/charts.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/config/experiment.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/config/property.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/config/servers.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/control/ArrayToString.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/control/ConfigFrame.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/control/ImageThread.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/control/MyLogger.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/control/NodeLE.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/control/NodeLEList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/control/NodeLife.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/control/NodeLog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/control/Param.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/control/PublicContent.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/control/SerialConnectionException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/control/StringToHex.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/control/TimeServer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/control/XMLReader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/core/DataRecorder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/core/DrawCurve.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/core/DrawCurve1.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/core/DrawData.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/core/Edge.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/core/ImitateDraw.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/core/ImitateSend.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/core/MovingScalingEx.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/core/MysqlServer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/core/ProcessListListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/core/SchemaListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/core/ServerManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/core/ServerStatusListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/core/ServerVariablesListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/core/Surface.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/core/ZEllipse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/etl/Sort.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/etl/TransformData.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/AlertDialog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/BasicButton.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/ButtonTabComponent.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/CameraDialog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/ConfDialog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/DrawHoistry.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/DynamicTree.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/EnergyLife.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/FreshDialog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/HistryTopo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/HoistryEnergy.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/ItemLabelDemo1.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/LogDialog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/MainFrame.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/MainGUI.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/Monitor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/NodeHistroy.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/ParameterPanel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/PlaneTopology.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/PortRequestedDialog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/PromptTemp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/PublicNode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/SerialConnection.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/SerialParameters.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/TablePane.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/TablePanel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/Test.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/toolbar/QueryNode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/gui/toolbar/ViewExper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/image/a.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/image/big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/image/card.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/image/error.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/image/gear.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/image/icon.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/image/internet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/image/monitor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/image/node.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/image/refresh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/image/search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/image/serial.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/jfreechart/CrosshairDemo2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/jfreechart/HoistryNode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/jfreechart/LineChartDemo7.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/lib/Lib.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/lib/ToboToLib.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/model/MyTableModel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/pool/ConnectionPool.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/pool/ConnectionPoolManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/pool/DBInitInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/pool/DBbean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/pool/IConnectionPool.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/processlist/ProcessListInstancePanel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/processlist/ProcessListPanel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/processlist/ProcessListTableModel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/rssi/RssitoDistance.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/schema/SchemalPane.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/servervariables/ServerVariablesPanel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/servervariables/ServerVariablesTableModel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/test/HistroyData.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/test/InserData.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ADSN/src/test/XJdialog.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrcc/adit/images/Image4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrcc/adit/images/adit.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrcc/adit/images/appicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrcc/adit/images/connect.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrcc/adit/images/disconnect.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrcc/adit/images/fit.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrcc/adit/images/new.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrcc/adit/images/newdatabaseconnection.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrcc/adit/images/open.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrcc/adit/images/query.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrcc/adit/images/reload.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrcc/adit/images/save.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrcc/adit/images/tables.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/sqlhistory.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/Image4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/adit.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/appicon.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/appicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/connect.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/disconnect.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/fit.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/new.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/newdatabaseconnection.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/open.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/query.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/reload.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/save.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/tables.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrcc/adit/GsConnection.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrcc/adit/GsField.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrcc/adit/GsHtmlReport.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrcc/adit/GsIndexEntry.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrcc/adit/GsMessageDialog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrcc/adit/GsPassword.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrcc/adit/GsSchemaTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrcc/adit/GsSchemaTreeEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrcc/adit/GsSchemaTreeListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrcc/adit/GsScrollPane.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrcc/adit/GsSqlAbout.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrcc/adit/GsSqlMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrcc/adit/GsStoredConnection.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrcc/adit/GsTable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrcc/adit/GsTableSchemaCatalog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrcc/adit/SqlFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mrcc/adit/TxtFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/INSTALL.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/a.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/drivers.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/urls.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dbmsmanager/GsConnection.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dbmsmanager/GsField.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dbmsmanager/GsHtmlReport.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dbmsmanager/GsIndexEntry.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dbmsmanager/GsMessageDialog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dbmsmanager/GsPassword.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dbmsmanager/GsSchemaTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dbmsmanager/GsSchemaTreeEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dbmsmanager/GsSchemaTreeListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dbmsmanager/GsScrollPane.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dbmsmanager/GsSqlAbout.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dbmsmanager/GsSqlMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dbmsmanager/GsStoredConnection.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dbmsmanager/GsTable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dbmsmanager/GsTableSchemaCatalog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dbmsmanager/SqlFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dbmsmanager/TxtFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/TestPath.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tools/Hex.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ADSN.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -327,18 +93,107 @@
     <favorites_list name="ADSN" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="MainFrame.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/gui/MainFrame.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="GsSqlMain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsSqlMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+            <state relative-caret-position="37525">
+              <caret line="2121" column="80" selection-start-line="2121" selection-start-column="2" selection-end-line="2121" selection-end-column="80" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GsStoredConnection.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsStoredConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GsSqlMain.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/mrcc/adit/GsSqlMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GsTable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsTable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GsScrollPane.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsScrollPane.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GsTableSchemaCatalog.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsTableSchemaCatalog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GsSqlAbout.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsSqlAbout.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SqlFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dbmsmanager/SqlFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TxtFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dbmsmanager/TxtFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="665">
+              <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -348,15 +203,31 @@
       <projects_view />
     </option>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/tools/Hex.java" />
+        <option value="$PROJECT_DIR$/src/dbmsmanager/GsSchemaTree.java" />
+        <option value="$PROJECT_DIR$/src/config/a.txt" />
+        <option value="$PROJECT_DIR$/src/test/TestPath.java" />
+        <option value="$PROJECT_DIR$/src/dbmsmanager/GsConnection.java" />
+        <option value="$PROJECT_DIR$/src/dbmsmanager/GsIndexEntry.java" />
+        <option value="$PROJECT_DIR$/src/dbmsmanager/GsSchemaTreeEvent.java" />
+        <option value="$PROJECT_DIR$/src/dbmsmanager/GsSqlMain.java" />
+        <option value="$PROJECT_DIR$/src/dbmsmanager/GsStoredConnection.java" />
+        <option value="$PROJECT_DIR$/src/com/mrcc/adit/GsSqlMain.java" />
+      </list>
+    </option>
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-226" />
-    <option name="y" value="132" />
-    <option name="width" value="1918" />
+    <option name="x" value="168" />
+    <option name="y" value="52" />
+    <option name="width" value="1680" />
     <option name="height" value="960" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -372,10 +243,10 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
-      <showMembers />
+      <showMembers ProjectPane="true" />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages />
+      <hideEmptyPackages ProjectPane="false" />
       <abbreviatePackageNames />
       <autoscrollToSource />
       <autoscrollFromSource />
@@ -384,8 +255,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -432,21 +302,88 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gui" />
+              <option name="myItemId" value="image" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ADSN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="song.ADSN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mrcc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ADSN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="song.ADSN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mrcc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="sqlhistory.bin&#9;FILE&#9;file://G:/github/song.ADSN/sqlhistory.bin&#10;urls.ini&#9;FILE&#9;file://G:/github/song.ADSN/src/config/urls.ini" />
   </component>
-  <component name="RunManager" selected="Application.MainFrame">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\github\song.ADSN\src\com\mrcc\adit\images" />
+      <recent name="G:\github\song.ADSN\src" />
+      <recent name="G:\github\song.ADSN" />
+      <recent name="G:\github\song.ADSN\src\config" />
+      <recent name="G:\github\song.ADSN\src\image" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.GsSqlMain (1)">
     <configuration default="false" name="MainFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -455,6 +392,66 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="gui.MainFrame" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ADSN" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="GsSqlMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="dbmsmanager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="dbmsmanager.GsSqlMain" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ADSN" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="test.TestPath" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ADSN" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="GsSqlMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.mrcc.adit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.mrcc.adit.GsSqlMain" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -622,6 +619,7 @@
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
+      <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
@@ -787,6 +785,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -802,12 +806,18 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="1">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.MainFrame" />
+      <item index="1" class="java.lang.String" itemvalue="Application.GsSqlMain" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TestPath" />
+      <item index="3" class="java.lang.String" itemvalue="Application.GsSqlMain (1)" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.MainFrame" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.GsSqlMain (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.GsSqlMain" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestPath" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MainFrame" />
       </list>
     </recent_temporary>
   </component>
@@ -825,40 +835,45 @@
       <option name="presentableId" value="Default" />
       <updated>1460355661385</updated>
       <workItem from="1460355675956" duration="42000" />
+      <workItem from="1460357180888" duration="731000" />
+      <workItem from="1460381674925" duration="1631000" />
+      <workItem from="1460383359868" duration="1680000" />
+      <workItem from="1460421209942" duration="3049000" />
+      <workItem from="1460424446471" duration="43000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42000" />
+    <option name="totallyTimeSpent" value="7176000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-226" y="132" width="1918" height="960" extended-state="0" />
+    <frame x="168" y="52" width="1680" height="960" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973711" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28485578" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -873,7 +888,16 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/dbmsmanager/GsMessageDialog.java</url>
+          <line>32</line>
+          <properties field="jscrMsgPane" class="dbmsmanager.GsMessageDialog" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -881,10 +905,365 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/gui/MainFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsSqlMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37525">
+          <caret line="2121" column="80" selection-start-line="2121" selection-start-column="2" selection-end-line="2121" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsStoredConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mrcc/adit/GsSqlMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsScrollPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsTableSchemaCatalog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsSqlAbout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/SqlFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/TxtFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsSqlMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsHtmlReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsIndexEntry.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/MainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tools/Hex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsSqlMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/TestPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/a.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsSchemaTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2432">
+          <caret line="180" column="42" selection-start-line="180" selection-start-column="42" selection-end-line="180" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/MainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tools/Hex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tools/Hex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/MainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/a.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/TestPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/urls.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_73/src.zip!/java/util/prefs/Preferences.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4199">
+          <caret line="259" column="0" selection-start-line="259" selection-start-column="0" selection-end-line="260" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="39" column="69" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsHtmlReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsIndexEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsMessageDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsPassword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsSchemaTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="169" column="0" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsSchemaTreeEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsSchemaTreeListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsScrollPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsSqlAbout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/TxtFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/SqlFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsTableSchemaCatalog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsStoredConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsSqlMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37525">
+          <caret line="2121" column="80" selection-start-line="2121" selection-start-column="2" selection-end-line="2121" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mrcc/adit/images/appicon.gif" />
+    <entry file="file://$PROJECT_DIR$/src/com/mrcc/adit/GsSqlMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
