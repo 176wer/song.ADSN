@@ -17,7 +17,7 @@ public class DBInitInfo {
     static{
         beans = new ArrayList<DBbean>();
         // 这里数据 可以从xml 等配置文件进行获取
-        // 为了测试，这里我直接写死
+
         DBbean beanOracle = new DBbean();
         beanOracle.setDriverName("com.mysql.jdbc.Driver");
         beanOracle.setUrl("jdbc:mysql://127.0.0.1:3306/adsn");

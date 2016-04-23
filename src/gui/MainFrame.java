@@ -9,6 +9,7 @@ import core.DrawCurve1;
 import core.ImitateDraw;
 import core.ImitateSend;
 import core.Surface;
+import debug.Raw;
 import gui.toolbar.QueryNode;
 import gui.toolbar.ViewExper;
 import org.jfree.ui.RefineryUtilities;
@@ -61,6 +62,7 @@ public class MainFrame extends Thread {
 	private ImitateDraw imidraw;
 	private DrawHoistry dialog;
 	private LiuLiang liuliang;
+	private Raw raw;
 	
 
 	private DebugLiuliang dliuliang;
@@ -410,12 +412,15 @@ public class MainFrame extends Thread {
 		JMenuItem menuItem_5 = new JMenuItem("µ÷ÊÔ³ÌÐò");
 		menuItem_5.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				raw=new Raw(table);
+				raw.start();
 				imi = new ImitateSend(treePanel);
 				imi.start();
 				imidraw = new ImitateDraw(drawCurve);
 				imidraw.start();
 				dliuliang = new DebugLiuliang(liuliang);
 				dliuliang.start();
+				
 			}
 		});
 		menu_4.add(menuItem_5);
@@ -435,6 +440,7 @@ public class MainFrame extends Thread {
 				imi.setFlag(false);
 				imidraw.setFlag(false);
 				dliuliang.setFlag(false);
+				raw.setFlag(false);
 			}
 		});
 		menu_4.add(menuItem_9);

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="JGoodies UIF lite">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/jgoodies-uif-lite.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib/jgoodies-uif-lite-javadoc.zip!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/jgoodies-uif-lite-src.zip!/" />
+    </SOURCES>
+  </library>
+</component>

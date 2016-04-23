@@ -29,6 +29,10 @@ public class TablePanel extends JPanel {
         }
         model.addRow(RowData);
     }
+    
+    public DefaultTableModel getModel(){
+    	return model;
+    }
 
 
 }

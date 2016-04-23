@@ -12,6 +12,11 @@ import org.jfree.chart.ChartFactory;
 import org.jfree.chart.JFreeChart;
 import org.jfree.data.time.TimeSeriesCollection;
 import java.awt.Color;
+import javax.swing.JMenuBar;
+import javax.swing.JMenu;
+import javax.swing.JMenuItem;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
 public class TestDialog extends JDialog {
 
@@ -49,6 +54,19 @@ public class TestDialog extends JDialog {
 			JPanel panel = new JPanel();
 			panel.setBackground(Color.RED);
 			contentPanel.add(panel, BorderLayout.CENTER);
+			
+			JMenuBar menuBar = new JMenuBar();
+			setJMenuBar(menuBar);
+			
+			JMenu mnNewMenu = new JMenu("New menu");
+			menuBar.add(mnNewMenu);
+			
+			JMenuItem mntmNewMenuItem = new JMenuItem("New menu item");
+			mntmNewMenuItem.addActionListener(new ActionListener() {
+				public void actionPerformed(ActionEvent arg0) {
+				}
+			});
+			mnNewMenu.add(mntmNewMenuItem);
 		
 	}
 

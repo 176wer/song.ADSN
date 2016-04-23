@@ -8,21 +8,18 @@ import java.io.IOException;
 public class TestString {
 	
 public static void main(String[] agrs){
-	
-	try {
-		BufferedReader reader=new BufferedReader(new FileReader("D:\\1.java"));
-		int i=0;
-		String s=null;
-		while((s=reader.readLine())!=null){
-			System.out.println(s+"    "+i);
-			i++;
-		}
-	} catch (FileNotFoundException e) {
-		// TODO Auto-generated catch block
-		e.printStackTrace();
-	} catch (IOException e) {
-		// TODO Auto-generated catch block
-		e.printStackTrace();
-	}
+	String a="A";
+	System.out.println(a.hashCode()%4);
+    int[] b=new int[10000000];
+    try {
+        Thread.sleep(500000);
+    } catch (InterruptedException e) {
+        e.printStackTrace();
+    }
+    for (int i=0;i<100000000;i++){
+        b[i]=3;
+    }
+
+
 }
 }

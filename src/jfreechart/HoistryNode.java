@@ -179,7 +179,7 @@ public class HoistryNode extends JPanel implements ChangeListener {
 		Statement stm2 = null;
 		ResultSet rs2;
 		String sql = "select sensor_id from funcation where node_funcation='" + pickFunc + "'";//根据功能区列出所有节点
-
+		System.out.println(sql);
 
 		try {
 			stm1 = conn.createStatement();
