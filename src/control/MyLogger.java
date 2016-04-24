@@ -44,8 +44,10 @@ public class MyLogger extends Thread {
     private synchronized  String getLogFilePath() {
         StringBuffer logFilePath = new StringBuffer();
           
-        String logPath= MyLogger.class.getResource("/").getPath();;
-        System.out.println(logPath);
+        String logPath1= MyLogger.class.getResource("/Log/NodeLog").getPath();;
+        String logPath= new File(logPath1).getAbsolutePath();
+
+
         logFilePath.append(logPath);
         logFilePath.append(File.separatorChar);
         logFilePath.append(LOG_FOLDER_NAME);

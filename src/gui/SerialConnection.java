@@ -4,6 +4,7 @@ import bean.NodeMark;
 import control.*;
 import core.DrawCurve;
 import core.DrawCurve1;
+import core.DrawCurve4;
 import core.ZEllipse;
 import lib.Lib;
 
@@ -25,7 +26,7 @@ public class SerialConnection extends Thread implements SerialPortEventListener,
     private SerialParameters parameters;
     private OutputStream os;
     private InputStream is;
-    private DrawCurve1 drawCurve;
+    private DrawCurve4 drawCurve;
     private DynamicTree tree;
     private CommPortIdentifier portId;
     private SerialPort sPort;
@@ -332,10 +333,12 @@ public class SerialConnection extends Thread implements SerialPortEventListener,
                             //反映该网络内所有温度变化
                          //   drawCurve.addTemp(temp);
                             //    wenpane.addHumObservation(hum);
-                            drawCurve.add(temp, Integer.valueOf(node.getHumidity()),Integer.valueOf(node.getLight()) , Integer.valueOf(node.getVibration()));
-                            System.out.println("湿度" + node.getHumidity());
-                            System.out.println("光照" + node.getLight());
-                            System.out.println("振动" + node.getVibration());
+                          //  drawCurve.add(temp, Integer.valueOf(node.getHumidity()),Integer.valueOf(node.getLight()) , Integer.valueOf(node.getVibration()));
+                            drawCurve.getTemp().add(temp);
+                            drawCurve.getHumdity().add(Integer.valueOf(node.getHumidity()));
+                            drawCurve.getLight().add(Integer.valueOf(node.getLight()));
+                            drawCurve.getVibration().add(Integer.valueOf(node.getVibration()));
+
                         }
 
                         //监控温度

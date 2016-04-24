@@ -67,6 +67,7 @@ private XMLReader(){
 	    	  experiment.setMaxId(id);
 	    	  experiment.setDirections(s[1]);
 
+
 	    	  list.add(experiment);
 	    }
 		

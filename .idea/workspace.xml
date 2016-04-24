@@ -1,138 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e1192d5-9ea3-42d4-b645-a4f647b923c4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/intellij_forms_rt.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/intellij_forms_rt_src.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jgoodies-common-javadoc.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jgoodies-common-sources.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jgoodies-common.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jgoodies-forms-javadoc.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jgoodies-forms-sources.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jgoodies-forms.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jgoodies-uif-lite-javadoc.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jgoodies-uif-lite-src.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jgoodies-uif-lite.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/JGoodies_Forms.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/JGoodies_UIF_lite.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/ImportAndExport.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/CusteomCellEditor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/CustomCellRender.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/CustomTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/NodeData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/Test.jfd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/TreeLibFrame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/TreeLibPanel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/TreeTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tools/CleanRecorder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tools/HexToData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tools/MySqlImportAndExport.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tools/Sort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/bean/ChartBean.class" afterPath="$PROJECT_DIR$/out/production/ADSN/bean/ChartBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/bean/Experiment.class" afterPath="$PROJECT_DIR$/out/production/ADSN/bean/Experiment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/bean/FormulaParser.class" afterPath="$PROJECT_DIR$/out/production/ADSN/bean/FormulaParser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/bean/NodeMark.class" afterPath="$PROJECT_DIR$/out/production/ADSN/bean/NodeMark.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/bean/NodeTime.class" afterPath="$PROJECT_DIR$/out/production/ADSN/bean/NodeTime.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/bean/ProcessList.class" afterPath="$PROJECT_DIR$/out/production/ADSN/bean/ProcessList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/bean/ProcessListItem.class" afterPath="$PROJECT_DIR$/out/production/ADSN/bean/ProcessListItem.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/bean/Recorder.class" afterPath="$PROJECT_DIR$/out/production/ADSN/bean/Recorder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/bean/RecorderList.class" afterPath="$PROJECT_DIR$/out/production/ADSN/bean/RecorderList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/bean/ServerStatus.class" afterPath="$PROJECT_DIR$/out/production/ADSN/bean/ServerStatus.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/bean/ServerVariables.class" afterPath="$PROJECT_DIR$/out/production/ADSN/bean/ServerVariables.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/charts/ChartsPanel.class" afterPath="$PROJECT_DIR$/out/production/ADSN/charts/ChartsPanel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/charts/InstanceChartsPanel.class" afterPath="$PROJECT_DIR$/out/production/ADSN/charts/InstanceChartsPanel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/charts/MysqlChart$1.class" afterPath="$PROJECT_DIR$/out/production/ADSN/charts/MysqlChart$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/charts/MysqlChart.class" afterPath="$PROJECT_DIR$/out/production/ADSN/charts/MysqlChart.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/control/ArrayToString.class" afterPath="$PROJECT_DIR$/out/production/ADSN/control/ArrayToString.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/control/ConfigFrame$1.class" afterPath="$PROJECT_DIR$/out/production/ADSN/control/ConfigFrame$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/control/ConfigFrame.class" afterPath="$PROJECT_DIR$/out/production/ADSN/control/ConfigFrame.class" />
+    <list default="true" id="5e1192d5-9ea3-42d4-b645-a4f647b923c4" name="Default" comment="4.23">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/control/ImageThread2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/core/DrawCurve3.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/core/DrawCurve4.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/control/ImageThread.class" afterPath="$PROJECT_DIR$/out/production/ADSN/control/ImageThread.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/control/MyLogger$LogFormatter.class" afterPath="$PROJECT_DIR$/out/production/ADSN/control/MyLogger$LogFormatter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/control/MyLogger.class" afterPath="$PROJECT_DIR$/out/production/ADSN/control/MyLogger.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/control/NodeLE.class" afterPath="$PROJECT_DIR$/out/production/ADSN/control/NodeLE.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/control/NodeLEList.class" afterPath="$PROJECT_DIR$/out/production/ADSN/control/NodeLEList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/control/NodeLife.class" afterPath="$PROJECT_DIR$/out/production/ADSN/control/NodeLife.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/control/NodeLog$LogFormatter.class" afterPath="$PROJECT_DIR$/out/production/ADSN/control/NodeLog$LogFormatter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/control/NodeLog.class" afterPath="$PROJECT_DIR$/out/production/ADSN/control/NodeLog.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/control/Param.class" afterPath="$PROJECT_DIR$/out/production/ADSN/control/Param.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/control/PublicContent.class" afterPath="$PROJECT_DIR$/out/production/ADSN/control/PublicContent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/control/SerialConnectionException.class" afterPath="$PROJECT_DIR$/out/production/ADSN/control/SerialConnectionException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/control/StringToHex.class" afterPath="$PROJECT_DIR$/out/production/ADSN/control/StringToHex.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/control/TimeServer.class" afterPath="$PROJECT_DIR$/out/production/ADSN/control/TimeServer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/control/XMLReader.class" afterPath="$PROJECT_DIR$/out/production/ADSN/control/XMLReader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/core/DataRecorder$DataCell.class" afterPath="$PROJECT_DIR$/out/production/ADSN/core/DataRecorder$DataCell.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/core/DataRecorder.class" afterPath="$PROJECT_DIR$/out/production/ADSN/core/DataRecorder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/core/DebugLiuliang.class" afterPath="$PROJECT_DIR$/out/production/ADSN/core/DebugLiuliang.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/core/DrawCurve.class" afterPath="$PROJECT_DIR$/out/production/ADSN/core/DrawCurve.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/core/DrawCurve1.class" afterPath="$PROJECT_DIR$/out/production/ADSN/core/DrawCurve1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/core/DrawData.class" afterPath="$PROJECT_DIR$/out/production/ADSN/core/DrawData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/core/Edge.class" afterPath="$PROJECT_DIR$/out/production/ADSN/core/Edge.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/core/ImitateDraw.class" afterPath="$PROJECT_DIR$/out/production/ADSN/core/ImitateDraw.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/core/ImitateSend.class" afterPath="$PROJECT_DIR$/out/production/ADSN/core/ImitateSend.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/core/MovingScalingEx$1.class" afterPath="$PROJECT_DIR$/out/production/ADSN/core/MovingScalingEx$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/core/MovingScalingEx.class" afterPath="$PROJECT_DIR$/out/production/ADSN/core/MovingScalingEx.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/core/MysqlServer.class" afterPath="$PROJECT_DIR$/out/production/ADSN/core/MysqlServer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/core/ProcessListListener.class" afterPath="$PROJECT_DIR$/out/production/ADSN/core/ProcessListListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/core/SchemaListener.class" afterPath="$PROJECT_DIR$/out/production/ADSN/core/SchemaListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/core/ServerManager.class" afterPath="$PROJECT_DIR$/out/production/ADSN/core/ServerManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/core/ServerStatusListener.class" afterPath="$PROJECT_DIR$/out/production/ADSN/core/ServerStatusListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/core/ServerVariablesListener.class" afterPath="$PROJECT_DIR$/out/production/ADSN/core/ServerVariablesListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/core/Surface.class" afterPath="$PROJECT_DIR$/out/production/ADSN/core/Surface.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/core/Surface1.class" afterPath="$PROJECT_DIR$/out/production/ADSN/core/Surface1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/core/ZEllipse.class" afterPath="$PROJECT_DIR$/out/production/ADSN/core/ZEllipse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/etl/Sort.class" afterPath="$PROJECT_DIR$/out/production/ADSN/etl/Sort.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/etl/TransformData.class" afterPath="$PROJECT_DIR$/out/production/ADSN/etl/TransformData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/jfreechart/CrosshairDemo2$DemoPanel.class" afterPath="$PROJECT_DIR$/out/production/ADSN/jfreechart/CrosshairDemo2$DemoPanel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/jfreechart/CrosshairDemo2$DemoTableModel.class" afterPath="$PROJECT_DIR$/out/production/ADSN/jfreechart/CrosshairDemo2$DemoTableModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/jfreechart/CrosshairDemo2.class" afterPath="$PROJECT_DIR$/out/production/ADSN/jfreechart/CrosshairDemo2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/jfreechart/HoistryNode.class" afterPath="$PROJECT_DIR$/out/production/ADSN/jfreechart/HoistryNode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/jfreechart/LineChartDemo7.class" afterPath="$PROJECT_DIR$/out/production/ADSN/jfreechart/LineChartDemo7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/lib/Lib.class" afterPath="$PROJECT_DIR$/out/production/ADSN/lib/Lib.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/lib/ToboToLib.class" afterPath="$PROJECT_DIR$/out/production/ADSN/lib/ToboToLib.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/model/MyTableModel.class" afterPath="$PROJECT_DIR$/out/production/ADSN/model/MyTableModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/pool/ConnectionPool$1.class" afterPath="$PROJECT_DIR$/out/production/ADSN/pool/ConnectionPool$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/pool/ConnectionPool.class" afterPath="$PROJECT_DIR$/out/production/ADSN/pool/ConnectionPool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/pool/ConnectionPoolManager$Singtonle.class" afterPath="$PROJECT_DIR$/out/production/ADSN/pool/ConnectionPoolManager$Singtonle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/pool/ConnectionPoolManager.class" afterPath="$PROJECT_DIR$/out/production/ADSN/pool/ConnectionPoolManager.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/pool/DBInitInfo.class" afterPath="$PROJECT_DIR$/out/production/ADSN/pool/DBInitInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/pool/DBbean.class" afterPath="$PROJECT_DIR$/out/production/ADSN/pool/DBbean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/pool/IConnectionPool.class" afterPath="$PROJECT_DIR$/out/production/ADSN/pool/IConnectionPool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/processlist/ProcessListInstancePanel$1.class" afterPath="$PROJECT_DIR$/out/production/ADSN/processlist/ProcessListInstancePanel$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/processlist/ProcessListInstancePanel$2.class" afterPath="$PROJECT_DIR$/out/production/ADSN/processlist/ProcessListInstancePanel$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/processlist/ProcessListInstancePanel$3.class" afterPath="$PROJECT_DIR$/out/production/ADSN/processlist/ProcessListInstancePanel$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/processlist/ProcessListInstancePanel$4.class" afterPath="$PROJECT_DIR$/out/production/ADSN/processlist/ProcessListInstancePanel$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/processlist/ProcessListInstancePanel.class" afterPath="$PROJECT_DIR$/out/production/ADSN/processlist/ProcessListInstancePanel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/processlist/ProcessListPanel$1.class" afterPath="$PROJECT_DIR$/out/production/ADSN/processlist/ProcessListPanel$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/processlist/ProcessListPanel.class" afterPath="$PROJECT_DIR$/out/production/ADSN/processlist/ProcessListPanel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/processlist/ProcessListTableModel.class" afterPath="$PROJECT_DIR$/out/production/ADSN/processlist/ProcessListTableModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/rssi/RssitoDistance.class" afterPath="$PROJECT_DIR$/out/production/ADSN/rssi/RssitoDistance.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/schema/SchemalPane.class" afterPath="$PROJECT_DIR$/out/production/ADSN/schema/SchemalPane.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/servervariables/ServerVariablesPanel$1.class" afterPath="$PROJECT_DIR$/out/production/ADSN/servervariables/ServerVariablesPanel$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/servervariables/ServerVariablesPanel.class" afterPath="$PROJECT_DIR$/out/production/ADSN/servervariables/ServerVariablesPanel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/servervariables/ServerVariablesTableModel.class" afterPath="$PROJECT_DIR$/out/production/ADSN/servervariables/ServerVariablesTableModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/test/HistroyData$1.class" afterPath="$PROJECT_DIR$/out/production/ADSN/test/HistroyData$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/test/HistroyData.class" afterPath="$PROJECT_DIR$/out/production/ADSN/test/HistroyData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/test/InserData.class" afterPath="$PROJECT_DIR$/out/production/ADSN/test/InserData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/test/TestDialog.class" afterPath="$PROJECT_DIR$/out/production/ADSN/test/TestDialog.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/test/TestPath.class" afterPath="$PROJECT_DIR$/out/production/ADSN/test/TestPath.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/test/TestString.class" afterPath="$PROJECT_DIR$/out/production/ADSN/test/TestString.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/test/XJdialog$1.class" afterPath="$PROJECT_DIR$/out/production/ADSN/test/XJdialog$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/test/XJdialog$2.class" afterPath="$PROJECT_DIR$/out/production/ADSN/test/XJdialog$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/test/XJdialog$3.class" afterPath="$PROJECT_DIR$/out/production/ADSN/test/XJdialog$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/test/XJdialog.class" afterPath="$PROJECT_DIR$/out/production/ADSN/test/XJdialog.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/tools/Hex.class" afterPath="$PROJECT_DIR$/out/production/ADSN/tools/Hex.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/tools/SimulationSend.class" afterPath="$PROJECT_DIR$/out/production/ADSN/tools/SimulationSend.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ADSN.iml" afterPath="$PROJECT_DIR$/ADSN.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ADSN/.gitignore" afterPath="$PROJECT_DIR$/out/production/ADSN/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/control/ImageThread.java" afterPath="$PROJECT_DIR$/src/control/ImageThread.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/control/MyLogger.java" afterPath="$PROJECT_DIR$/src/control/MyLogger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/control/XMLReader.java" afterPath="$PROJECT_DIR$/src/control/XMLReader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/core/ImitateDraw.java" afterPath="$PROJECT_DIR$/src/core/ImitateDraw.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/CameraDialog.java" afterPath="$PROJECT_DIR$/src/gui/CameraDialog.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/MainFrame.java" afterPath="$PROJECT_DIR$/src/gui/MainFrame.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/TablePanel.java" afterPath="$PROJECT_DIR$/src/gui/TablePanel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jfreechart/HoistryNode.java" afterPath="$PROJECT_DIR$/src/jfreechart/HoistryNode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pool/DBInitInfo.java" afterPath="$PROJECT_DIR$/src/pool/DBInitInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/TestDialog.java" afterPath="$PROJECT_DIR$/src/test/TestDialog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/TestPath.java" afterPath="$PROJECT_DIR$/src/test/TestPath.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/TestString.java" afterPath="$PROJECT_DIR$/src/test/TestString.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tools/SimulationSend.java" afterPath="$PROJECT_DIR$/src/tools/SimulationSend.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/SerialConnection.java" afterPath="$PROJECT_DIR$/src/gui/SerialConnection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/toolbar/ViewExper.java" afterPath="$PROJECT_DIR$/src/gui/toolbar/ViewExper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/MyTableModel.java" afterPath="$PROJECT_DIR$/src/model/MyTableModel.java" />
     </list>
     <ignored path="ADSN.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -158,49 +50,104 @@
       <file leaf-file-name="MainFrame.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/gui/MainFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="81" column="45" selection-start-line="81" selection-start-column="45" selection-end-line="81" selection-end-column="45" />
+            <state relative-caret-position="74">
+              <caret line="401" column="11" selection-start-line="401" selection-start-column="11" selection-end-line="401" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HoistryNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jfreechart/HoistryNode.java">
+      <file leaf-file-name="MyTableModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/MyTableModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="181" column="27" selection-start-line="181" selection-start-column="27" selection-end-line="181" selection-end-column="27" />
+            <state relative-caret-position="369">
+              <caret line="76" column="10" selection-start-line="76" selection-start-column="10" selection-end-line="76" selection-end-column="10" />
+              <folding>
+                <element signature="e#1002#1003#0" expanded="true" />
+                <element signature="e#1032#1033#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ViewExper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gui/toolbar/ViewExper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="65" column="45" selection-start-line="65" selection-start-column="45" selection-end-line="65" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DrawHoistry.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gui/DrawHoistry.java">
+      <file leaf-file-name="XMLReader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/control/XMLReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+            <state relative-caret-position="492">
+              <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConnectionPool.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pool/ConnectionPool.java">
+      <file leaf-file-name="experiment.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/config/experiment.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBbean.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pool/DBbean.java">
+      <file leaf-file-name="MyLogger.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/control/MyLogger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+            <state relative-caret-position="-102">
+              <caret line="47" column="41" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CameraDialog.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gui/CameraDialog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageThread.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/control/ImageThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="26" column="22" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageThread2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/control/ImageThread2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DrawCurve3.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/core/DrawCurve3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1159">
+              <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -263,6 +210,18 @@
         <option value="$PROJECT_DIR$/src/test/TreeLibPanel.java" />
         <option value="$PROJECT_DIR$/src/pool/DBInitInfo.java" />
         <option value="$PROJECT_DIR$/src/jfreechart/HoistryNode.java" />
+        <option value="$PROJECT_DIR$/src/core/DrawCurve4.java" />
+        <option value="$PROJECT_DIR$/src/core/DrawCurve3.java" />
+        <option value="$PROJECT_DIR$/src/core/ImitateDraw.java" />
+        <option value="$PROJECT_DIR$/src/gui/MainFrame.java" />
+        <option value="$PROJECT_DIR$/src/gui/SerialConnection.java" />
+        <option value="$PROJECT_DIR$/src/control/ImageThread.java" />
+        <option value="$PROJECT_DIR$/src/gui/CameraDialog.java" />
+        <option value="$PROJECT_DIR$/src/control/ImageThread2.java" />
+        <option value="$PROJECT_DIR$/src/control/MyLogger.java" />
+        <option value="$PROJECT_DIR$/src/control/XMLReader.java" />
+        <option value="$PROJECT_DIR$/src/gui/toolbar/ViewExper.java" />
+        <option value="$PROJECT_DIR$/src/model/MyTableModel.java" />
       </list>
     </option>
   </component>
@@ -272,10 +231,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="452" />
+    <option name="y" value="41" />
     <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="height" value="1092" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -302,7 +261,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -349,31 +307,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ADSN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="song.ADSN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pool" />
+              <option name="myItemId" value="Log" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -388,6 +328,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -397,17 +338,20 @@
     <property name="SearchEverywhereHistoryKey" value="sqlhistory.bin&#9;FILE&#9;file://G:/github/song.ADSN/sqlhistory.bin&#10;urls.ini&#9;FILE&#9;file://G:/github/song.ADSN/src/config/urls.ini" />
     <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="test" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\github\song.ADSN\src\curveImage" />
       <recent name="G:\github\song.ADSN\src\com\mrcc\adit\images" />
       <recent name="G:\github\song.ADSN\src" />
       <recent name="G:\github\song.ADSN" />
       <recent name="G:\github\song.ADSN\src\config" />
-      <recent name="G:\github\song.ADSN\src\image" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="test" />
     </key>
   </component>
   <component name="RunManager" selected="Application.MainFrame">
@@ -419,26 +363,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="gui.MainFrame" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ADSN" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="TreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="test.TreeTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -491,14 +415,34 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="TestPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ImageThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="control.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="test.TestPath" />
+      <option name="MAIN_CLASS_NAME" value="control.ImageThread" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ADSN" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ImageThread2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="control.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="control.ImageThread2" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -855,18 +799,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.MainFrame" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TreeTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TreeLibPanel" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TreeLibFrame" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TestPath" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TreeLibPanel" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TreeLibFrame" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ImageThread" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ImageThread2" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.MainFrame" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TreeLibPanel" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TreeLibFrame" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TreeTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.TestPath" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ImageThread2" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ImageThread" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TreeLibPanel" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TreeLibFrame" />
       </list>
     </recent_temporary>
   </component>
@@ -904,15 +848,19 @@
       <workItem from="1461393135193" duration="1607000" />
       <workItem from="1461400028626" duration="609000" />
       <workItem from="1461411839061" duration="586000" />
-      <workItem from="1461412982140" duration="979000" />
+      <workItem from="1461412982140" duration="9018000" />
+      <workItem from="1461458629950" duration="1363000" />
+      <workItem from="1461460031180" duration="2035000" />
+      <workItem from="1461462411620" duration="145000" />
+      <workItem from="1461463284945" duration="3649000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95245000" />
+    <option name="totallyTimeSpent" value="110476000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="452" y="41" width="1936" height="1092" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -920,9 +868,9 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3273495" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41393876" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41393876" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41393876" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33367243" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -940,7 +888,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284055" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1010,38 +958,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsSchemaTreeEvent.java" />
-    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsSchemaTreeListener.java" />
-    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsScrollPane.java" />
-    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsSqlAbout.java" />
-    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/TxtFilter.java" />
-    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/SqlFilter.java" />
-    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsTableSchemaCatalog.java" />
-    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsTable.java" />
-    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsStoredConnection.java" />
-    <entry file="file://$PROJECT_DIR$/src/dbmsmanager/GsSqlMain.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/mrcc/adit/images/appicon.gif" />
-    <entry file="file://$PROJECT_DIR$/src/com/mrcc/adit/GsSqlMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tools/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/ImportAndExport.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/TestGUi.jfd" />
     <entry file="file://$PROJECT_DIR$/src/test/TestGUi.java" />
     <entry file="file://$PROJECT_DIR$/src/test/a.java" />
@@ -1102,22 +1018,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/SerialConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5472">
-          <caret line="308" column="33" selection-start-line="308" selection-start-column="33" selection-end-line="308" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#8293#8294#0" expanded="false" />
-            <element signature="e#8330#8331#0" expanded="false" />
-            <element signature="e#8421#8422#0" expanded="false" />
-            <element signature="e#8448#8449#0" expanded="false" />
-            <element signature="e#13297#13298#0" expanded="false" />
-            <element signature="e#13328#13329#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_73/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -1144,13 +1044,6 @@
         <state relative-caret-position="494">
           <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/DrawCurve.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1234,7 +1127,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1242,7 +1134,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1250,7 +1141,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1258,15 +1148,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
           <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/DrawHoistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1274,17 +1155,266 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="181" column="27" selection-start-line="181" selection-start-column="27" selection-end-line="181" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/DrawCurve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/DrawCurve1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#3085#3086#0" expanded="false" />
+            <element signature="e#3114#3115#0" expanded="false" />
+            <element signature="e#3586#3587#0" expanded="false" />
+            <element signature="e#3636#3637#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/DrawHoistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/SerialConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6042">
+          <caret line="339" column="95" selection-start-line="339" selection-start-column="95" selection-end-line="339" selection-end-column="95" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1155#1163#0" expanded="false" />
+            <element signature="e#1234#1242#0" expanded="false" />
+            <element signature="e#1373#1389#0" expanded="false" />
+            <element signature="e#1454#1470#0" expanded="false" />
+            <element signature="e#8317#8318#0" expanded="false" />
+            <element signature="e#8354#8355#0" expanded="false" />
+            <element signature="e#8445#8446#0" expanded="false" />
+            <element signature="e#8472#8473#0" expanded="false" />
+            <element signature="e#13437#13438#0" expanded="false" />
+            <element signature="e#13468#13469#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/ImitateDraw.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding>
+            <element signature="e#175#176#0" expanded="false" />
+            <element signature="e#196#197#0" expanded="false" />
+            <element signature="e#651#652#0" expanded="false" />
+            <element signature="e#669#670#0" expanded="false" />
+            <element signature="e#706#707#0" expanded="false" />
+            <element signature="e#729#730#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/curveImage/新建文本文档.txt" />
+    <entry file="file://$PROJECT_DIR$/src/core/DrawCurve4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="51" column="25" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
+          <folding>
+            <element signature="e#789#790#0" expanded="false" />
+            <element signature="e#816#817#0" expanded="false" />
+            <element signature="e#852#853#0" expanded="false" />
+            <element signature="e#882#883#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/DrawCurve3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1159">
+          <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/control/ImageThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/CameraDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/control/ImageThread2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_73/src.zip!/java/util/logging/FileHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1285">
+          <caret line="452" column="0" selection-start-line="452" selection-start-column="0" selection-end-line="452" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/control/MyLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="47" column="41" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/experiment.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/control/XMLReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/toolbar/ViewExper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="65" column="45" selection-start-line="65" selection-start-column="45" selection-end-line="65" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/MyTableModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="76" column="10" selection-start-line="76" selection-start-column="10" selection-end-line="76" selection-end-column="10" />
+          <folding>
+            <element signature="e#1002#1003#0" expanded="true" />
+            <element signature="e#1032#1033#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/MainFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="81" column="45" selection-start-line="81" selection-start-column="45" selection-end-line="81" selection-end-column="45" />
+        <state relative-caret-position="74">
+          <caret line="401" column="11" selection-start-line="401" selection-start-column="11" selection-end-line="401" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ADSN</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>IntelliJ IDEA GridLayout</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

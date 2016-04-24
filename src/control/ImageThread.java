@@ -6,6 +6,7 @@ package control;
 
 import core.DrawCurve;
 import core.DrawCurve1;
+import core.DrawCurve4;
 import core.Surface;
 import org.jfree.chart.JFreeChart;
 
@@ -28,19 +29,24 @@ public class ImageThread extends Thread
   //线程休眠时间
     private int sleepTime;
     //创建图表
-    private JFreeChart chart;
+    private DrawCurve4 drawCurve4;
     //当前时间
     private String time;
     //拓扑面板
     private Surface topoPanel;
     //存放文件夹路径
-    private String  filePath=ImageThread.class.getResource("/").getFile();
-    public ImageThread(int sleepTime, DrawCurve1 wenpane, Surface topoPanel){
+    private String  filePath;
+
+    public ImageThread(int sleepTime, DrawCurve4 wenpane, Surface topoPanel){
         this.sleepTime=sleepTime;
 
-        chart=wenpane.getChart();
+        drawCurve4 = wenpane;
         this.topoPanel=topoPanel;
+        filePath = ImageThread.class.getResource("/curveImage").getPath();
+        System.out.println("filePath: " + filePath);
     }
+
+
     public void run(){
          while(true){
              try {
@@ -48,14 +54,19 @@ public class ImageThread extends Thread
              } catch (InterruptedException e) {
                  e.printStackTrace();
              }
-            //获取当前时间
-             SimpleDateFormat   formatter   =   new   SimpleDateFormat   ("yyyy-MM-dd HH-mm-ss");
-             Date   curDate   =   new   Date(System.currentTimeMillis());//获取当前时间
-               time   =   formatter.format(curDate);
-             //保存为图像
-             BufferedImage bi = chart.createBufferedImage( 640, 480 );
-             save( bi);
-            saveImage(topoPanel);
+             System.out.println(drawCurve4);
+             Dimension imageSize = drawCurve4.getSize();
+             BufferedImage image = new BufferedImage(imageSize.width,
+                     imageSize.height, BufferedImage.TYPE_INT_ARGB);
+             Graphics2D g = image.createGraphics();
+             drawCurve4.paint(g);
+             g.dispose();
+             try {
+                 ImageIO.write(image, "png", new File(filePath));
+             } catch (IOException e) {
+                 e.printStackTrace();
+
+             }
          }
     }
     //把Jfreechart图表保存为图像

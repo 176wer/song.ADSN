@@ -4,11 +4,7 @@ import control.MyLogger;
 import control.NodeLEList;
 import control.NodeLife;
 import control.SerialConnectionException;
-import core.DebugLiuliang;
-import core.DrawCurve1;
-import core.ImitateDraw;
-import core.ImitateSend;
-import core.Surface;
+import core.*;
 import debug.Raw;
 import gui.toolbar.QueryNode;
 import gui.toolbar.ViewExper;
@@ -30,7 +26,7 @@ public class MainFrame extends Thread {
 
 	private JFrame frame;
 	private SerialParameters parameters;
-	private DrawCurve1 drawCurve;
+
 	private Surface NodeTopo;
 	private SerialConnection SerCon;
 	private JTabbedPane tabbedPane;
@@ -63,6 +59,7 @@ public class MainFrame extends Thread {
 	private DrawHoistry dialog;
 	private LiuLiang liuliang;
 	private Raw raw;
+	private DrawCurve4 drawCurve;
 	
 
 	private DebugLiuliang dliuliang;
@@ -243,7 +240,9 @@ public class MainFrame extends Thread {
 		tabbedPane.addTab("节点拓扑", null, scrolTopo, null);
 		treePanel.setTable(tabbedPane);
 		// 画参数曲线面板
-		drawCurve = new DrawCurve1();
+
+
+		drawCurve= new DrawCurve4();
 		tabbedPane.addTab("参数曲线", null, drawCurve, null);
 		JTabbedPane tabbedPane_1 = new JTabbedPane(JTabbedPane.TOP);
 		tabbedPane_1.setBounds(193, 565, 1199, 207);
@@ -552,7 +551,7 @@ public class MainFrame extends Thread {
 	/*
 	 * 返回参数reference for 参数面板
 	 */
-	public DrawCurve1 getDrawCurve() {
+	public DrawCurve4 getDrawCurve() {
 		return drawCurve;
 	}
 

@@ -62,7 +62,8 @@ public class ViewExper extends JDialog {
 		getContentPane().add(btnNewButton);
 		
 		List reader=XMLReader.getXMLReader().getExperiments();
-	    JTable table = new JTable(new MyTableModel(reader));
+
+		JTable table = new JTable(new MyTableModel(reader));
 	    table.setPreferredScrollableViewportSize(new Dimension(500, 70));
 	    table.setFillsViewportHeight(true);
 	    //Create the scroll pane and add the table to it.
